@@ -158,85 +158,102 @@ button {
 }
 
 .tiket-pesawat {
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #e7f3fe;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #e7f3fe;
 }
 
 .pilihan-perjalanan {
-    float: left;
-    width: 25%;
+  float: left;
+  width: 25%;
 }
 
 .asal {
-    margin-top: 100px;
-    text-align: left;
+  margin-top: 100px;
+  text-align: left;
 }
 
 .pilih {
-    padding: 5px;
-    font-size: 15px;
+  padding: 5px;
+  font-size: 15px;
 }
 
 .select {
-    transform: scale(1.6);
-    margin-right: 10px;
-    vertical-align: middle;
-    margin-bottom: 10px;
+  transform: scale(1.6);
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-bottom: 10px;
 }
 
 .tempat {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .waktu {
-    width: 25%;
-    float: left;
+  width: 25%;
+  float: left;
+  padding: 10px;
 }
 
 form p {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .Jumlah {
-    width: 25%;
-    float: left;
+  width: 25%;
+  float: left;
+  padding: 10px;
 }
 
 .jumlah-orang {
-    padding: 10px 18px;
-    margin-bottom: 8px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  padding: 10px 18px;
+  margin-bottom: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .waktu-input {
-    padding: 12px 20px;
-    margin-bottom: 8px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  padding: 10px 18px;
+  margin-bottom: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .cari {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #ddd;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #ddd;
+  box-sizing: border-box;
+  opacity: 0.8;
+  box-shadow: 0 7px rgb(177, 176, 176);
+}
+
+.cari:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.cari:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 .destination-wrapper {

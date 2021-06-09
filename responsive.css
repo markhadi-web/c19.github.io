@@ -99,11 +99,27 @@
     float: left;
     background-size: 30px;
   }
-      .Jumlah {
-        width: 100%;
-    }
 
-    .waktu {
-        width: 100%;
-    }
+  .Jumlah {
+    width: 100%;
+    padding: 0;
+  }
+
+  .waktu {
+    width: 100%;
+    padding: 0;
+  }
+
+  .waktu-input {
+    width: 100%;
+  }
+
+  .jumlah-orang{
+    width: 100%;
+  }
+
+  .pilihan-perjalanan {
+    float: left;
+    width: 50%;
+  }
 }
